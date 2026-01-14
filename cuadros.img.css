@@ -1,0 +1,106 @@
+body {
+  
+  background-color: #82c984;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  background-color: #ffffff;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 30px;
+  border: #000000 solid 3px;
+  margin-bottom: 40px;
+  padding: 10px;
+  color: #000000;
+ margin-left: 29%;
+
+}
+
+.contenedor {
+  
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tarjeta {
+  background-color: #ffffff;
+  transition-property: width, height;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px #00000033;
+  overflow: hidden;
+  text-align: left;
+
+}
+
+.tarjeta:hover {
+  transform: scale(1.2);
+  animation-name: tarjeta;
+  animation-duration: 5s;
+  width: 400px;
+  height: 470px;
+  
+
+}
+
+
+@keyframes tarjeta {
+
+  0% {background-color: #4a5dd7;}
+  25% {background-color: #7cd35f;}
+  35% {background-color: #d060a3;}
+  40% {background-color: #e6e604;}
+  50% {background-color: #f1a501;}
+  55% {background-color: #640325;}
+  65% {background-color: #ad4e0e;}
+  75% {background-color: #0e6f5c;}
+  85% {background-color: #3a86ff;}  
+  100% {background-color: #001f4d;}
+
+}
+
+
+.tarjeta img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom-right-radius: 50px;
+
+
+}
+
+.h1 {
+  margin: 15px;
+  color: #001f4d;
+  margin-top: -110px;
+}
+
+.tarjeta h2 {
+  margin: 15px;
+  color: #001f4d;
+}
+
+.tarjeta h3 {
+  margin: 0 15px;
+  color: #d63333;
+}
+
+.tarjeta p {
+  margin: 15px;
+  font-size: 14px;
+  color: #000000;
+}
+
+.redes {
+  display: flex;
+  justify-content: start;
+  gap: 15px;
+  padding: 15px;
+  font-size: 14px;
+  color: #000000;
+}
